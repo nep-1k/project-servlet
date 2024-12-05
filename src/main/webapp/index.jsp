@@ -44,7 +44,6 @@
 </c:if>
 <c:if test="${sessionScope.draw}">
     <h1>IT'S A DRAW</h1>
-    <br>
     <button onclick="restart()">Start again</button>
 </c:if>
 
